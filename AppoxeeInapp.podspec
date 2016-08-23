@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
 
   s.name         = "AppoxeeInapp"
   s.version      = "4.0.14"
-  s.summary      = "Appoxee Inapp enables developers to harnest the full power of Appoxee Inapp messaging on their iOS applications."
+  s.summary      = "Appoxee-Inapp enables developers to harnest the full power of Appoxee Inapp messaging on their iOS applications."
   s.description  = 	<<-DESC
-  					Appoxee Inapp enables Inapp messaging in your iOS application, for engaging your application users and increasing retention.
+  					Appoxee-Inapp enables Inapp messaging in your iOS application, for engaging your application users and increasing retention.
                    	DESC
   s.homepage     = "http://www.appoxee.com"
   s.license      = { :type => "Custom", :file => "AppoxeeLicence.txt" }
