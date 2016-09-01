@@ -5,7 +5,7 @@ This repository contains the Appoxee Inapp iOS SDK.
 Integration
 -----------
 
-*Cocoa pods
+*Cocoa pods*
 
 ```ruby
 target 'project_name' do
@@ -18,11 +18,11 @@ end
 
 ```ruby
 target 'project_name' do
-    pod 'AppoxeeInapp', :git => 'https://github.com/AppoxeeMobile/iosInappArtifacts.git', :tag => '4.0.14'
+    pod 'AppoxeeInapp', :git => 'https://github.com/AppoxeeMobile/iosInappArtifacts.git', :tag => '4.0.15'
 end
 ```
 
-*Manual
+*Manual*
 
 Drag and drop the .framework and the .bundle to your project.
 
@@ -30,7 +30,7 @@ Drag and drop the .framework and the .bundle to your project.
 Configuration file
 ------------------
 
-Make sure to provide an ```AppoxeeConfiguration.plist``` file.
+Make sure to provide an ```AppoxeeConfig.plist``` file.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

@@ -36,7 +36,7 @@
  @brief Method for getting a singleton instance of AppoxeeInapp
  @code
  AppoxeeInapp *appoxeeInapp = [AppoxeeInapp shared];
- @endcode
+ </pre></code>
  @return AppoxeeInapp an Instance Type of AppoxeeInapp.
  */
 + (nullable instancetype)shared;
@@ -46,7 +46,7 @@
  @brief Method for getting the SDK version
  @code
  NSString *version = [AppoxeeInapp inappVersion];
- @endcode
+ </pre></code>
  @return NSString representing the SDK version.
  */
 + (nonnull NSString *)inappVersion;
@@ -62,7 +62,7 @@
  
     return YES;
  }
- @endcode
+ </pre></code>
  @param delegate id which conforms to AppoxeeInappDelegate protocol.
  */
 - (void)engageWithDelegate:(nullable id <AppoxeeInappDelegate>)delegate;
@@ -75,7 +75,7 @@
  {
     [[AppoxeeInapp shared] reportInteractionEventWithName:@"payment" andAttributes:@{@"amount" : amount}];
  }
- @endcode
+ </pre></code>
  @param name NSString which describes the event name. No spaces, numbers, or symboles are allowed. Preferebly, use camelCase.
  @param attributes NSDictionary which contains Plist objects with any additional data.
  */
